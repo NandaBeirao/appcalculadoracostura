@@ -1,8 +1,7 @@
 const calcular = document.getElementById('calcular');
 
 function appcalculadoracostura {
-  const diametro = document.getElementById('diametro').value;  
-  return Math.PI * diametro;
-}
+  var raio = document.getElementById('raio').value;  
+  var circumference = 2 * Math.PI * raio;}
 
 calcular.addEventListener('onclick', appcalculadoracostura);
