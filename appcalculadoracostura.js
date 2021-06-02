@@ -6,16 +6,7 @@ function appcalculadoracostura () {
 
     if (diametro !== '') {
 
-        const tamanhodavolta = (diametro * 3.14)).toFixed(1);
-
-        let classificacao = '';
-
-        resultado.textContent = `${nome} corte ${tamanhodavolta}`;
-        
-    }else {
-        resultado.textContent = 'Preencha todos os campos!!!';
-    }
-
+        const appcalculadoracostura = (diametro * 3.14).toFixed(1);
 }
 
 calcular.addEventListener('click', appcalculadoracostura);
