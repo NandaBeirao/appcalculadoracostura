@@ -6,4 +6,4 @@ function appcalculadoracostura () {
     const appcalculadoracostura = (diametro * 3.14).toFixed(1);
 }
 
-calcular.addEventListener('click', appcalculadoracostura);
+calcular.addEventListener('onclick', appcalculadoracostura);
