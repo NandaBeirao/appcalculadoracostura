@@ -1,6 +1,6 @@
 const calcular = document.getElementById('calcular');
 
-function appcostura () {
+function appcalculadoracostura () {
     const diametro = document.getElementById('diametro').value;
     const resultado = document.getElementById('resultado');
 
@@ -18,4 +18,4 @@ function appcostura () {
 
 }
 
-calcular.addEventListener('click', appcostura);
+calcular.addEventListener('click', appcalculadoracostura);
